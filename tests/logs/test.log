@@ -57,3 +57,20 @@ INFO : Test valid credentials: expected result "Add Hub" button found
 INFO : TEST PASSED IN 9.740425799973309 SEC
 INFO : Test sidebar elements: expected result "Settings" button, "Help" button and "Logs" button present
 INFO : TEST PASSED IN 2.6186840999871492 SEC
+INFO : [2024-01-20 18:15:15.921306] TESTING STARTED
+INFO : Test invalid credentials ["that_is_not_an_email", "somepassword"]: expected result "Invalid email format"
+INFO : TEST PASSED IN 4.57788730005268 SEC
+INFO : Test invalid credentials ["almost_an@email", "passwordtest"]: expected result "Invalid email format"
+INFO : TEST PASSED IN 3.8696872000582516 SEC
+INFO : Test invalid credentials ["missed_the_dot@emailcom", "testpassword"]: expected result "Invalid email format"
+INFO : TEST PASSED IN 4.016372099984437 SEC
+INFO : Test invalid credentials ["test@email.com", "testpassword"]: expected result "Wrong login or password"
+INFO : TEST PASSED IN 4.211766699911095 SEC
+INFO : Test invalid credentials ["wrong@email.com", "wrongpassword"]: expected result "Wrong login or password"
+INFO : TEST PASSED IN 5.146701799938455 SEC
+INFO : Test invalid credentials ["notevenclose@gmail.com", "strong_password"]: expected result "Wrong login or password"
+INFO : TEST PASSED IN 4.8835943000158295 SEC
+INFO : Test valid credentials: expected result "Add Hub" button found
+INFO : TEST PASSED IN 9.745214900001884 SEC
+INFO : Test sidebar elements: expected result "Settings" button, "Help" button and "Logs" button present
+INFO : TEST PASSED IN 2.0626796000869945 SEC

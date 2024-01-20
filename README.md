@@ -29,7 +29,13 @@
     source venv/bin/activate
     ```
 
-4) Set needed environment variables
+4) Install requirements
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+5) Set needed environment variables
    
    Windows
    ```
@@ -41,13 +47,13 @@
    export $ANDROID_HOME=path/to/your/android/sdk
    ```
 
-5) Run appium server
+6) Run appium server
 
    ```
    appium -a 0.0.0.0 -p 4723 --allow-insecure adb_shell
    ```
 
-6) Open new terminal in the same folder and run
+7) Open new terminal in the same folder and run
 
    ```
    pytest -s
